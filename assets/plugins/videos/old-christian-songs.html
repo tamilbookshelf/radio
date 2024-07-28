@@ -1,0 +1,374 @@
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Tamil Bookshelf | Old Christian Songs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Old Christian Songs.">
+    <meta name="author" content="Suganthan">
+    <meta name="robots" content="index, nofollow">
+    <meta name="revisit-after" content="7 days">
+  <link href="../../../css/maint.min.css" rel="stylesheet">
+  
+  <style>
+  .video-container {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 360px;
+  }
+  
+  .video-player {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 640px;
+  }
+  
+  .video-player iframe{
+    width: 640px;
+    height: 360px;
+  }
+  
+  .video-playlist {
+    position: absolute;
+    left: 640px;
+    top: 0;
+    width: 100%;
+  }
+  
+  .playlist-heading {
+    background-color: #5b6068;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    line-height: 36px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .playlist-heading span {
+    padding-left: 10px;
+  }
+  
+  .video-playlist nav {
+    background-color: #f8f8f8;
+    font-size: 13px;
+    width: 100%;
+    height: 324px;
+    overflow-y: scroll;
+  }
+  
+  #video-list {
+    list-style-type: none;
+    margin: 0; 
+    padding-left: 0;
+  }
+  
+  #video-list li {
+    height: auto;
+    margin-bottom: 0;
+  }
+  
+  #video-list li a {
+    border-bottom: #9b9da1 solid 1px;
+    color: #666;
+    display: block;
+    height: 25px;
+    padding: 8px 10px;
+    font-size:16px;
+    text-decoration: none;
+    -webkit-transition: all .12s ease;
+    -moz-transition: all .12s ease;
+    -ms-transition: all .12s ease;
+    -o-transition: all .12s ease;
+    transition: all .12s ease;
+    color: #118a9c;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8;
+  }
+  
+  #video-list li a:hover {
+    background-color: #9b9da1;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-width: 1800px) {
+    .video-container {
+      width: 1640px;
+      height: 720px;
+    }
+  
+    .video-player {
+      width: 1280px;
+    }
+    
+    .video-player iframe {
+      width: 1280px;
+      height: 720px;
+    }
+    
+    .video-playlist {
+      left: 1280px;
+      top: 0;
+      width: 360px;
+    }
+    
+    .playlist-heading {
+      width: 360px;
+    }
+    
+    .video-playlist nav {
+      width: 360px;
+      height: 684px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) and (max-width: 1799px) {
+    .video-container {
+      width: 1183px;
+      height: 480px;
+    }
+  
+    .video-player {
+      width: 853px;
+    }
+    
+    .video-player iframe {
+      width: 853px;
+      height: 480px;
+    }
+    
+    .video-playlist {
+      left: 853px;
+      top: 0;
+      width: 330px;
+    }
+    
+    .playlist-heading {
+      width: 330px;
+    }
+    
+    .video-playlist nav {
+      width: 330px;
+      height: 444px;
+    }
+  }
+  
+  @media only screen and (max-width: 959px) {
+    .video-container {
+      width: 100%;
+      height: auto;
+    }
+    
+    .video-player {
+      height: 0; width: 100%; padding-bottom: 56.25%; position: relative;
+    }
+    
+    .video-player iframe {
+      height: 100%; width: 100%; position: absolute; top: 0; left: 0;
+    }
+    
+    .video-playlist {
+      display: block;
+      position: relative;
+      left: 0;
+      width: 100%;
+    }
+    
+    .playlist-heading {
+      width: 100%;
+    }
+    
+    .video-playlist nav {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  
+  @media only screen and (max-width: 481px) {
+    .video-playlist nav {
+      height: 180px;
+    }
+  }
+  
+  /* demo */
+  body {
+    font-family:helvetica;
+  }
+
+  .frame-1b {
+    background-color: #ffedd7;
+    -webkit-box-shadow: inset 1px 2px 45px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 1px 2px 45px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 1px 2px 45px 10px rgba(0, 0, 0, 0.75);
+}
+.frame {
+    border: solid 1.5vmin #bb9152;
+    border-bottom-color: #443a38;
+    border-left-color: #201b1a;
+    border-radius: 2px;
+    border-right-color: #201b1a;
+    border-top-color: #3c3231;
+    -webkit-box-shadow: inset 1px 2px 45px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 1px 2px 45px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 1px 2px 45px 10px rgba(0, 0, 0, 0.75);
+}
+
+#style-3::-webkit-scrollbar {
+    width: 6px !important;
+    background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb {
+    background-color: #201b1a;
+}
+.bg-tempting-azure {
+    background-image: linear-gradient(120deg,#84fab0 0,#8fd3f4 100%)!important;
+}
+.bg-happy-itmeo {
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%) !important;
+}
+
+  </style>
+  <script>
+    window.console = window.console || function(t) {};
+  </script>
+  <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-27MKJEC0YX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-27MKJEC0YX');
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5M7CT2N');</script>
+    <!-- End Google Tag Manager -->
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-W8XDRMX"></script>
+  <meta name="p:domain_verify" content="932ce38b3fe249e3b586393413e0b318" />
+  </head>
+  <body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-header fixed-sidebar">
+    <div class="main-card mb-3 card" style="background-image: linear-gradient(180deg, #cf9c64 0%, #6d3102 100%) !important;">
+      <div class="card-body bg-premium-dark">
+        <center>
+            <h5 class="card-title">Main</h5>
+        </center>
+        <div class="row">
+            <div class="col">
+                <div class="app-main" style="padding-top: 0px;">
+                            <div class="card-body">
+                                <section class="video-container frame">
+                                <div class="video-player">
+                                
+                                <iframe name="ifrm" id="ifrm" src="//www.youtube.com/embed/_DmbgJgig0I" frameborder="0" allowfullscreen=""></iframe>
+                                </div>
+                                <div class="video-playlist" style="text-align:left;">
+                                <div class="playlist-heading">
+                                <span>Old Christian Songs</span>
+                                </div>
+                                <nav id="style-3">
+                                <ul id="video-list">
+                                    <li><a href="//www.youtube.com/embed/D16PlNF1bdA" onclick="return loadIframe('ifrm', this.href);">Irul sulntha logathil</a></li>
+                                    <li><a href="//www.youtube.com/embed/zdrKdxQXJso" onclick="return loadIframe('ifrm', this.href);">Unnaiyantri vere</a></li>
+                                    <li><a href="//www.youtube.com/embed/B_YZBq3f2vw" onclick="return loadIframe('ifrm', this.href);">Paareer arunothayam</a></li>
+                                    <li><a href="//www.youtube.com/embed/TMc84-KU-gg" onclick="return loadIframe('ifrm', this.href);">Thirukarathal</a></li>
+                                    <li><a href="//www.youtube.com/embed/_DmbgJgig0I" onclick="return loadIframe('ifrm', this.href);">Aathumame en</a></li>
+                                    <li><a href="//www.youtube.com/embed/SRUNE0cN30w" onclick="return loadIframe('ifrm', this.href);">Aathi thiru vaarthai</a></li>
+                                    <li><a href="//www.youtube.com/embed/7s-6VFn6rB8" onclick="return loadIframe('ifrm', this.href);">Ellaam Yesuve</a></li>
+                                    <li><a href="//www.youtube.com/embed/1ukQRJV1iP4" onclick="return loadIframe('ifrm', this.href);">Vinthai Kiristhu Yesu Raja</a></li>
+                                    <li><a href="//www.youtube.com/embed/msreRbzwIHc" onclick="return loadIframe('ifrm', this.href);">En inba thunba neram</a></li>
+                                    <li><a href="//www.youtube.com/embed/GMvqEgjfff8" onclick="return loadIframe('ifrm', this.href);">Ullam aanandha</a></li>
+                                    <li><a href="//www.youtube.com/embed/YrCoc1aYNj0" onclick="return loadIframe('ifrm', this.href);">Thollai Kastangal</a></li>
+                                    <li><a href="//www.youtube.com/embed/OCX5N0XDPTg" onclick="return loadIframe('ifrm', this.href);"> Satthaai nishkalamaai</a></li>
+                                    <li><a href="//www.youtube.com/embed/F9cXDplb8mI" onclick="return loadIframe('ifrm', this.href);"> Yesuvin pinne</a></li>
+                                    <li><a href="//www.youtube.com/embed/CQIYa-ovq_w" onclick="return loadIframe('ifrm', this.href);"> Senaiyathiban nam</a></li>
+                                    <li><a href="//www.youtube.com/embed/80KJFiMohrA" onclick="return loadIframe('ifrm', this.href);"> Ummaipol yaarundu</a></li>
+                                    <li><a href="//www.youtube.com/embed/6IEh4XlTZ8I" onclick="return loadIframe('ifrm', this.href);"> Abraham Devan</a></li>
+                                    <li><a href="//www.youtube.com/embed/Z72Kg9mSfjk" onclick="return loadIframe('ifrm', this.href);"> Parisutham pera</a></li>
+                                    <li><a href="//www.youtube.com/embed/WRHJxshfcvI" onclick="return loadIframe('ifrm', this.href);"> Jeeviyame</a></li>
+                                    <li><a href="//www.youtube.com/embed/bUJPVT0891M" onclick="return loadIframe('ifrm', this.href);"> Kalngaathe en nenjame</a></li>
+                                    <li><a href="//www.youtube.com/embed/SvblSU2okEM" onclick="return loadIframe('ifrm', this.href);"> Kartharai nambiye</a></li>
+                                    <li><a href="//www.youtube.com/embed/fFfJgyhx9J0" onclick="return loadIframe('ifrm', this.href);"> Antha naal inba</a></li>
+                                    <li><a href="//www.youtube.com/embed/fzHzoPmLwKk" onclick="return loadIframe('ifrm', this.href);"> Enna en aanandham</a></li>
+                                    <li><a href="//www.youtube.com/embed/Q9GFWPe3QxA" onclick="return loadIframe('ifrm', this.href);"> Sthothiram yesunatha</a></li>
+                                    <li><a href="//www.youtube.com/embed/ZHYL3ts-3b0" onclick="return loadIframe('ifrm', this.href);"> Yesu christhuvin anbu</a></li>
+                                    <li><a href="//www.youtube.com/embed/VRu7dy1S1AQ" onclick="return loadIframe('ifrm', this.href);"> Umpatham paninthen</a></li>
+                                    <li><a href="//www.youtube.com/embed/2eVFruB9z2Y" onclick="return loadIframe('ifrm', this.href);"> Parisuthar koottam yesuvai</a></li>
+                                    <li><a href="//www.youtube.com/embed/_jIZ16jNj3c" onclick="return loadIframe('ifrm', this.href);"> Pongi varum arul</a></li>
+                                    <li><a href="//www.youtube.com/embed/6AXFP-Upcd0" onclick="return loadIframe('ifrm', this.href);"> Parisuthar koottam naduvil</a></li>
+                                    <li><a href="//www.youtube.com/embed/2rseMWSzwfM" onclick="return loadIframe('ifrm', this.href);"> Mandhayil sera aadugale</a></li>
+                                    <li><a href="//www.youtube.com/embed/T2H7Rf08iJ8" onclick="return loadIframe('ifrm', this.href);"> Magizhvom maghizhvom</a></li>
+                                    <li><a href="//www.youtube.com/embed/CK1c3SWDenY" onclick="return loadIframe('ifrm', this.href);"> Alleluya kartharaiye</a></li>
+                                    <li><a href="//www.youtube.com/embed/b_KSfDPk5Js" onclick="return loadIframe('ifrm', this.href);"> Ponnaana neram</a></li>
+                                    <li><a href="//www.youtube.com/embed/fIxCnTmlpkE" onclick="return loadIframe('ifrm', this.href);"> Engu pogireer</a></li>
+                                    <li><a href="//www.youtube.com/embed/sxlZ33-d23Y" onclick="return loadIframe('ifrm', this.href);"> Devan varukintar</a></li>
+                                    <li><a href="//www.youtube.com/embed/2owVYFMhevs" onclick="return loadIframe('ifrm', this.href);"> Naan sugamaanen</a></li>
+                                    <li><a href="//www.youtube.com/embed/t0dgz_G5oUY" onclick="return loadIframe('ifrm', this.href);"> Isravel en janame entrum</a></li>
+                                    <li><a href="//www.youtube.com/embed/6yDVosX2QcY" onclick="return loadIframe('ifrm', this.href);"> Sathiya vedham</a></li>
+                                    <li><a href="//www.youtube.com/embed/scapTQFm6pQ" onclick="return loadIframe('ifrm', this.href);"> Paralogame en sonthame</a></li>
+                                    <li><a href="//www.youtube.com/embed/CPC2gYEVzNQ" onclick="return loadIframe('ifrm', this.href);"> Ekkala saththam vaanil</a></li>
+                                    <li><a href="//www.youtube.com/embed/wFIqnDvlqmM" onclick="return loadIframe('ifrm', this.href);"> Aanandhamai inba</a></li>
+                                    <li><a href="//www.youtube.com/embed/gBg_ustIOMY" onclick="return loadIframe('ifrm', this.href);"> Karthane en</a></li>
+                                    <li><a href="//www.youtube.com/embed/aZMdqqypLlU" onclick="return loadIframe('ifrm', this.href);"> Thirupaatham nambi</a></li>
+                                    <li><a href="//www.youtube.com/embed/gIrReweI9Ic" onclick="return loadIframe('ifrm', this.href);"> Sathiyamum jeevanum</a></li>
+                                    <li><a href="//www.youtube.com/embed/C3Jq41SkL-U" onclick="return loadIframe('ifrm', this.href);"> Poorana aasir</a></li>
+                                    <li><a href="//www.youtube.com/embed/bOCEaLnoVRc" onclick="return loadIframe('ifrm', this.href);"> Kaanatha aattin pinne</a></li>
+                                    <li><a href="//www.youtube.com/embed/k9wFK4iQqZk" onclick="return loadIframe('ifrm', this.href);"> Old Christian Songs 1980's</a></li>
+                                </ul>
+                                </nav>
+                                </div>
+                                </section>
+                            </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+</div>
+ <script src="../../../js/jquery-3.4.1.js"></script>
+  <script id="videotpl" type="text/template">
+    {{#videos}}
+      <li><a href="{{url}}" onclick="return loadIframe('ifrm', this.href);">{{{title}}}</a></li>
+    {{/videos}}
+  </script>
+ 
+  
+  <script id="rendered-js">
+  
+  // Changest the url of the iframe
+  function loadIframe(iframeName, url) {
+    var $iframe = $('#' + iframeName);
+    if ($iframe.length) {
+      $iframe.attr('src', url);
+      return false;
+    }
+    return true;
+  }
+  //# sourceURL=pen.js
+      </script>
+	   <script src="../../../js/maint.min.js"></script>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5M7CT2N"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+  </body>
